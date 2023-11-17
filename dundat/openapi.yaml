@@ -241,6 +241,8 @@ components:
             email: User email info
         clientCredentials:
           tokenUrl: https://dotlabs.eu.auth0.com/oauth/token
+          scopes:
+            email: User email info
   headers:
     Location:
       description: The absolute URI of the created record
